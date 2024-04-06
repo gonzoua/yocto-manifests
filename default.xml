@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yocto"  fetch="https://github.com/yoctoproject"/>
+  <remote name="oe4t"  fetch="https://github.com/OE4T"/>
+  <remote name="gonzoua"  fetch="https://github.com/gonzoua"/>
+
+  <default sync-j="4"/>
+  <project remote="yocto" revision="kirkstone"  name="poky" path="src/poky"/>
+  <project remote="oe4t" revision="kirkstone"  name="meta-tegra" path="src/meta-tegra"/>
+  <project remote="gonzoua" revision="main" name="meta-acme" path="src/meta-acme"/>
+  <project remote="gonzoua" revision="main" name="yocto-manifests" path="manifests"/>
+</manifest>
