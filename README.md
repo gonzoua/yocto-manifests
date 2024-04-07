@@ -16,7 +16,7 @@ sudo apt-get install -y gawk wget git-core diffstat unzip gcc-multilib \
 ```
 mkdir ~/Projects/acme
 cd ~/Projects/acme
-repo init -u https://github.com:gonzoua/yocto-manifests.git
+repo init -u https://github.com/gonzoua/yocto-manifests.git
 repo sync
 ```
 
